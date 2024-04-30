@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=meta">
+  <title>Money</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+
+  <header class="mx-auto px-8 py-6 bg-black text-white text-center ">Account Balance</header>
+  <br>
+
+  <main class="flex">
+    <section>
+
+      
+
+      <img class="ml-6 mt-2  " src="Images/money.jpg" alt="">
+
+
+    </section>
+
+    
+
+     <section class="bg-slate-400"> 
+
+      <!-- mx-auto parent e bosale h3 er likha middle e bosbe-->
+
+
+      <div>
+        <div  class="mx-72 ">
+
+          <h3 class="bg-slate-950 text-yellow-600 font-extrabold justify-center mt-6 text-center">Income</h3>
+  
+        </div>     
+        <!-- income input -->
+  
+        <div class="mt-8">
+          <div class=" ml-20">
+                  <h3 class="font-semibold mb-4">Income: <input id="income-input" class="bg-black text-white" type="text"> </h3>
+                  
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <div  class="mx-72 ">
+
+          <h3 class="bg-slate-950 text-white text-center font-extrabold justify-center mt-6">Expenses</h3>
+  
+        </div>     
+        <!-- Expense input -->
+  
+        <div class="mt-8">
+          <div class=" ml-20">
+            <h3 class="font-semibold mb-4">Food: <input id="food-input" class="bg-black text-white" type="text"> </h3>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="mt-8">
+        <div class=" ml-20">
+          <h3 class="font-semibold mb-4">Rent: <input id="rent-input" class="bg-black text-white" type="text"> </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8">
+      <div class=" ml-20">
+        <h3  class="font-semibold mb-4">Cloth: <input id="cloth-input" class="bg-black text-white" type="text"> </h3>
+      </div>
+    </div>
+  </div>
+
+      <div>
+        <div  class="mx-72 ">
+
+          
+          <button id="calculate-button" class="bg-slate-950 px-4 py-2 rounded text-lg font-semibold text-white">Calculate</button>
+  
+        </div>     
+        <!-- Calculate -->
+  
+        <div class="mt-8">
+          <div class=" ml-20">
+            <h3  class="font-semibold mb-4">Total Expense: <input id="total-expense" class="bg-black text-white" type="text"> </h3>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="mt-8">
+        <div class=" ml-20">
+          <h3  class="font-semibold mb-4">Balance: <input id="balance" class="bg-black text-white" type="text"> </h3>
+        </div>
+      </div>
+    </div>
+
+<!-- Save % -->
+  <div class="flex gap-10">
+
+    <h3 class="font-semibold mb-4">Save:<input id="save-input"  class="bg-black text-white" type="text"><span class="ml-2">%</span></h3>
+    <button id="save-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold mb-2 ml-2 mr-6 px-4 py-2 rounded-none">
+      Save
+    </button>
+
+  </div>
+
+
+
+  <h3 class="font-semibold mb-4">Saving Amount: <input id="save-amount" class="bg-black text-white" type="text"> </h3>
+  <h3 class="font-semibold mb-4">Remaining Balance: <input id="update-balance" class="bg-black text-white" type="text"> </h3>
+    </section>
+  </main>
+  <script src="Money.js"></script>
+</body>
+</html>
